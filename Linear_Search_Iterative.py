@@ -1,6 +1,6 @@
-def search(array, num):
+def search(array, target):
     for i in range(len(array)):
-        if num == array[i]: return i 
+        if target == array[i]: return i 
     return False
 
 print(search([1,2,3,4] , 4)) 
